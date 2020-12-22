@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+    <head>
+        <title>EJOGOS</title>
+        <link rel="stylesheet" type="text/css" href="css/fundos.css">
+        <link rel="stylesheet" type="text/css" href="css/inicial.css">
+        <link rel="stylesheet" type="text/css" href="css/banner.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="icon" href="img/dmc.gif" type="image/gif">
+    </head>
+    <body background="img/fundotlou2.png">
+        <header class="banner1">
+            <a href="index.html">
+                <img class="banner2" src="img/Banner.png">  
+            </a>
+        </header>
+        <nav class="menu">
+            <a class="menuComLink menuComLink1" href="Aventura.html">Aventura</a>
+            <a class="menuComLink menuComLink1" href="Rpg.html">RPG</a>
+            <a class="menuComLink menuComLink1" href="Fps.html">FPS</a>
+            <a class="menuComLink menuComLink1" href="Luta.html">Luta</a>
+            <a class="menuComLink menuComLink1" href="Multiplayer.html">Multiplayer</a>
+        </nav>
+        <section class="fundoJogo">
+            <div class="abaVideo">
+                <div class="tituloJogo">The Last Of Us 2</div>
+                <div class="video">
+                    <iframe class="bordaVideo" width="560" height="316"src="https://www.youtube.com/embed/qPNiIeKMHyg"></iframe>
+                    <br><br><img class="imagemClicada" src="img/tlou2-1.png">
+                    <img class="imagemClicada" src="img/tlou2-2.png">
+                    <img class="imagemClicada" src="img/tlou2-3.png">
+                    <img class="imagemClicada" src="img/tlou2-4.png">
+                    <img class="imagemClicada" src="img/tlou2-5.png">
+                    <br>
+                    <button id="Musica"onclick="abaixarVolume()">Remover áudio de fundo</button>
+                    <button id="Musica"onclick="aumentarVolume()">Retomar áudio de fundo</button>
+                </div>
+            </div>
+                <div class="sinopse">
+                <img class="logo" src="img/logotlou2.png">
+                <div class="sinopseParagrafo">Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico: Ellie, que busca por vingança após um evento traumático, e Abby, uma soldada que se envolve em um conflito entre uma milícia e um culto.</div>
+                <div class="sinopseEspecificacoes"><br>
+                    <p>Empresa: Naughty Dog</p>
+                    <p>Data de Lançamento: 19/06/2020</p>
+                    <p>Nota no metacritic: 93</p>
+                </div>
+                <div class="form">
+                    <p>Dê a sua nota: </p>
+                    <form action="  " method="post">
+                        <input placeholder="* Nome *" class="caixaTexto" type="text" id="nome" />
+                        <br>
+                        <input placeholder="* E-mail *" class="caixaTexto" type="email" id="email" />
+                        <br>
+                        <select class="caixaTexto" name=Nota>
+                            <option value="0">Selecione sua nota</option>
+                            <option value="1">Papel higiênico (1)</option>
+                            <option value="2">Horrível (2)</option>
+                            <option value="3">Muito ruim (3)</option>
+                            <option value="4">Ruim (4)</option>
+                            <option value="5">Mediano (5)</option>
+                            <option value="6">Ok (6)</option>
+                            <option value="7">Bom (7)</option>
+                            <option value="8">Muito bom (8)</option>
+                            <option value="9">Excelente (9)</option>
+                            <option value="10">Obra de arte (10)</option>
+                        </select>
+                        <br>
+                        <input class="botao caixaTexto" type="submit"></input>
+                    </form>
+                </div>
+        </section>
+        <footer class="contatos">
+            <a href="https://www.youtube.com/channel/UCAAlONwX2gBf1EMaPtzueuw" target="_blank"><img class="contatosImagem" src="img/youtube.png"></a>
+            <a href="https://www.facebook.com/Ejogoscom-102728041739036" target="_blank"><img class="contatosImagem" src="img/facebook.png"></a>
+            <a href="https://twitter.com/EJogos2" target="_blank"><img class="contatosImagem" src="img/twitter.png"></a>
+            <a href="https://discord.gg/e3wW7Ap9" target="_blank"><img class="contatosImagem" src="img/discord.png"></a>
+            <a href="https://www.twitch.tv/ejogos" target="_blank"><img class="contatosImagem" src="img/twitch.png"></a>
+            <a href="https://www.instagram.com/ejogoscom" target="_blank"><img class="contatosImagem" src="img/instagram.png"></a>
+        </footer>
+        <audio src="músicas/tlou2.mp3" type="audio/mpeg" autoplay loop/>
+        <script>
+             document.querySelector("audio").volume=0.25
+        function abaixarVolume() {
+            document.querySelector('audio').volume = 0;
+        }
+        function aumentarVolume(){
+            document.querySelector('audio').volume = 0.25;
+        }
+        </script>
+    </body>
+</html>

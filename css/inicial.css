@@ -1,0 +1,69 @@
+.fundo{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    background-color: #2E2E2E;
+    border-radius: 15px;
+    color: white;
+}
+@font-face{
+    font-family: Starjout;
+    src: url(../Fontes/Prime-Light.otf)
+}
+.jogosDestaque{
+    text-align: center;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: 0.3;
+}
+.jogosDestaque:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+}
+
+#gifRyu{
+    float:right;
+    width: 20%;
+}
+#gifMario{
+    width: 22%;
+    float:left;
+}
+.contatos{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.contatosImagem{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25px;
+}
+#tituloLista{
+    font-family: god;
+    font-size: 55px;
+    background-color: rgba(90, 46, 46, 0.7);
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid #FF4500;
+}
+#background{
+    background-image: linear-gradient(to right, black, black, black, red, red);
+}
